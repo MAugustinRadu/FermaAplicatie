@@ -4,7 +4,7 @@ public class Main {
     private Animals[] animalsInYard = new Animals[MAXANIMALS];
 
     private void addAnimal() {
-        animalsInYard[0] = new Dog();
+        animalsInYard[0] = new Wolf();
         animalsInYard[1] = new Cat();
         animalsInYard[2] = new Horse();
         animalsInYard[3] = new Cow();
@@ -27,11 +27,19 @@ public class Main {
             }
         }
     }
+
+    private void moveAndPlayAnimals() {
+        for (int i = 0; i < animalsInYard.length; i++) {
+            if (animalsInYard[i] != null) {
+                animalsInYard[i].sound();
+                animalsInYard[i].move();
+            }
+        }
+    }
     public static void main(String[] args) {
         Main ay = new Main();
         ay.addAnimal();
-        ay.playAnimalsSounds();
-        ay.moveAnimals();
+        ay.moveAndPlayAnimals();
         
     }
 }

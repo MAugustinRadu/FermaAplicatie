@@ -4,13 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fad73d44-5079-43e1-81b2-2dfbc8b49397" name="Changes" comment="Implementation of playing animal sounds, dubbed SoundsOfAnimals">
-      <change afterPath="$PROJECT_DIR$/src/Cricket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Frog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Horse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/jlayer1_0_1.xml" beforeDir="false" />
+    <list default="true" id="fad73d44-5079-43e1-81b2-2dfbc8b49397" name="Changes" comment="Implementation of system outs for every sound for better readability">
+      <change afterPath="$PROJECT_DIR$/src/WildAnimals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Wolf.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FermaAplicatie.iml" beforeDir="false" afterPath="$PROJECT_DIR$/FermaAplicatie.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Animals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Animals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cricket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cricket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Frog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Frog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Horse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Horse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +71,7 @@
       <option name="presentableId" value="Default" />
       <updated>1670956255270</updated>
       <workItem from="1670956256356" duration="2762000" />
-      <workItem from="1671010399066" duration="2494000" />
+      <workItem from="1671010399066" duration="4547000" />
     </task>
     <task id="LOCAL-00001" summary="First Version">
       <created>1670958801739</created>
@@ -90,7 +94,21 @@
       <option name="project" value="LOCAL" />
       <updated>1671012077164</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Implementation of Horse, Cricket and Frog + Sound files for all animal classes">
+      <created>1671013069850</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1671013069850</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Implementation of system outs for every sound for better readability">
+      <created>1671013710984</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1671013710984</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,6 +128,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Version" />
     <MESSAGE value="Implementation of playing animal sounds, dubbed SoundsOfAnimals" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementation of playing animal sounds, dubbed SoundsOfAnimals" />
+    <MESSAGE value="Implementation of Horse, Cricket and Frog + Sound files for all animal classes" />
+    <MESSAGE value="Implementation of system outs for every sound for better readability" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementation of system outs for every sound for better readability" />
   </component>
 </project>

@@ -1,8 +1,11 @@
-public class Horse extends Animals{
+public class Wolf extends WildAnimals{
+
+
+
     @Override
     void sound() {
-        SoundsOfAnimals.soundOfAnimals("horse.mp3");
-        System.out.println("Neighh, Neighh");
+        SoundsOfAnimals.soundOfAnimals("wolf.mp3");
+        System.out.println("Howwwwllll");
     }
 
     @Override
@@ -10,4 +13,5 @@ public class Horse extends Animals{
         int moveDistance = 7;
         System.out.println("I can move " + moveDistance + " tiles");
     }
+
 }
