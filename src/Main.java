@@ -6,12 +6,18 @@ public class Main {
     private void addAnimal() {
         animalsInYard[0] = new Dog();
         animalsInYard[1] = new Cat();
-        animalsInYard[2] = new Cat();
+        animalsInYard[2] = new Horse();
         animalsInYard[3] = new Cow();
+        animalsInYard[4] = new Cricket();
+        animalsInYard[5] = new Frog();
     }
 
     private void playAnimalsSounds() {
-
+        for (int i = 0; i < animalsInYard.length; i++) {
+            if (animalsInYard[i] != null) {
+                animalsInYard[i].sound();
+            }
+        }
     }
     
     private void moveAnimals() {

@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fad73d44-5079-43e1-81b2-2dfbc8b49397" name="Changes" comment="First Version">
+    <list default="true" id="fad73d44-5079-43e1-81b2-2dfbc8b49397" name="Changes" comment="Implementation of playing animal sounds, dubbed SoundsOfAnimals">
+      <change afterPath="$PROJECT_DIR$/src/Cricket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Frog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Horse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/jlayer1_0_1.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SoundsOfAnimals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SoundsOfAnimals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FermaAplicatie.iml" beforeDir="false" afterPath="$PROJECT_DIR$/FermaAplicatie.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +67,7 @@
       <option name="presentableId" value="Default" />
       <updated>1670956255270</updated>
       <workItem from="1670956256356" duration="2762000" />
-      <workItem from="1671010399066" duration="1494000" />
+      <workItem from="1671010399066" duration="2494000" />
     </task>
     <task id="LOCAL-00001" summary="First Version">
       <created>1670958801739</created>
@@ -78,7 +83,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670958807466</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Implementation of playing animal sounds, dubbed SoundsOfAnimals">
+      <created>1671012077164</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1671012077164</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -97,6 +109,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Version" />
-    <option name="LAST_COMMIT_MESSAGE" value="First Version" />
+    <MESSAGE value="Implementation of playing animal sounds, dubbed SoundsOfAnimals" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementation of playing animal sounds, dubbed SoundsOfAnimals" />
   </component>
 </project>
