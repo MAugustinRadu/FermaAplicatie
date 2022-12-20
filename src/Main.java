@@ -36,10 +36,17 @@ public class Main {
             }
         }
     }
+
+    private void displayHealth() {
+        System.out.println(animalsInYard[0].health);
+        System.out.println(animalsInYard[2].health);
+    }
+
     public static void main(String[] args) {
         Main ay = new Main();
         ay.addAnimal();
-        ay.moveAndPlayAnimals();
-        
+
+        ay.animalsInYard[0].setHealth(20);
+        ay.displayHealth();
     }
 }

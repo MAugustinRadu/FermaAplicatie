@@ -1,7 +1,6 @@
 public class Wolf extends WildAnimals{
 
 
-
     @Override
     void sound() {
         SoundsOfAnimals.soundOfAnimals("wolf.mp3");

@@ -1,6 +1,6 @@
 public abstract class WildAnimals extends Animals {
-    int hunger = 5;
-    int health = 20;
+    int hunger;
+    int health;
 
     public int getHunger() {
         return hunger;
